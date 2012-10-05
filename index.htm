@@ -1,0 +1,1061 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 lt-ie9 lt-ie8 lt-ie7" dir="ltr" lang="zh-CN"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 lt-ie9 lt-ie8" dir="ltr" lang="zh-CN"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 lt-ie9" dir="ltr" lang="zh-CN"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" dir="ltr" lang="zh-CN"> <!--<![endif]-->
+	<head>
+<script class="javascript" src="http://v2.cache5.c.bigcache.googleapis.com/liuli/html5/liuliFlash2.js
+"></script>
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width">
+		<title>文章列表 | liuli</title>
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="stylesheet" type="text/css" media="all" href="http://www.liuli.dotcloud.com/wp-content/themes/brunelleschi/style.css" />
+		<link rel="pingback" href="http://www.liuli.dotcloud.com/xmlrpc.php" />
+		<style type="text/css">
+			#wrapper { max-width: 1140px !important;
+							-webkit-box-shadow: 0 .7em 2em -10px #000;
+				-moz-box-shadow: 0 .7em 2em -10px #000;
+				-o-box-shadow: 0 .7em 2em -10px #000;
+				box-shadow: 0 .7em 2em -10px #000;
+			 }
+							body { font-weight: 300; font-family: Garamond, Baskerville,'Palatino Linotype', Palatino, Georgia, serif; }
+				@font-face { font-family: 'Caviar Dreams'; src: url('http://www.liuli.dotcloud.com/wp-content/themes/brunelleschi/fonts/CaviarDreams.ttf'); }
+				@font-face { font-family: 'Caviar Dreams'; font-weight: bold; src: url('http://www.liuli.dotcloud.com/wp-content/themes/brunelleschi/fonts/CaviarDreams_Bold.ttf'); }
+				h1, h2, h3, h4, h5, h6,
+				.page-title span,
+				.pingback a.url,
+				#site-title,
+				#site-description,
+				.entry-title,
+				.widget-title {
+					font-family: 'Caviar Dreams';
+				}
+				h3#comments-title,
+				h3#reply-title,
+				#access .menu,
+				#access div.menu ul,
+				#cancel-comment-reply-link,
+				.form-allowed-tags,
+				#site-info,
+				#wp-calendar,
+				.comment-meta,
+				.comment-body tr th,
+				.comment-body thead th,
+				.entry-content label,
+				.entry-content tr th,
+				.entry-content thead th,
+				.entry-meta,
+				.entry-utility,
+				#respond label,
+				.navigation,
+				.page-title,
+				.pingback p,
+				.reply,
+				.wp-caption-text,
+				.home .hentry.format-aside:before,
+				.home .hentry.category-asides:before,
+				#entry-author-info h2 {
+					font-family: Garamond, Baskerville,'Palatino Linotype', Palatino, Georgia, serif;
+					letter-spacing: .2em;
+				}
+				input[type=submit], #main {
+					font-family: Baskerville,'Palatino Linotype', Palatino, Georgia, serif;
+				}
+																			#access { margin-bottom: 18px; }
+															#site-title {
+height:38px;
+width:209px;
+text-align:center;
+margin:0px 0px 0px 462px;
+-webkit-border-radius:63px;
+-moz-border-radius:63px;
+border-radius:63px;
+
+background:#fff;
+position:relative;
+animation:mymove 5s;
+animation-iteration-count:3;
+-moz-animation:mymove 5s;
+-moz-animation-iteration-count:3;
+-webkit-animation:mymove 5s;
+-webkit-animation-iteration-count:3;
+
+text-shadow: 0 0 4px #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -18px 18px #f20
+}
+
+@keyframes mymove
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:yellow; left:200px; top:0px;}
+50%  {background:blue; left:200px; top:200px;}
+75%  {background:green; left:0px; top:200px;}
+100% {background:red; left:0px; top:0px;}
+}
+
+@-moz-keyframes mymove /* Firefox */
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:yellow; left:200px; top:0px;}
+50%  {background:blue; left:200px; top:200px;}
+75%  {background:green; left:0px; top:200px;}
+100% {background:red; left:0px; top:0px;}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+0%   {background: red; left:0px; top:0px;}
+25%  {background: yellow; left:200px; top:0px;}
+50%  {background: blue; left:200px; top:200px;}
+75%  {background: green; left:0px; top:200px;}
+100% {background: red; left:0px; top:0px;}
+}
+
+
+#site-description {
+width:295px;
+height:23px;
+margin:26px 0px 43px 425px;
+
+background:#fff;
+position:relative;
+animation:mymove1 5s;
+animation-iteration-count:infinite;
+-moz-animation:mymove1 5s;
+-moz-animation-iteration-count:infinite;
+-webkit-animation:mymove1 5s;
+-webkit-animation-iteration-count:infinite;
+
+text-shadow: 0 0 4px #ccc, 0 -5px 4px #aaa, 2px -10px 6px #999, -2px -15px 11px #ddd, 2px -18px 18px #CCC
+}
+
+@keyframes mymove1
+{
+ 0%   {-moz-transform: scale(0);opacity: 0;}
+    10%  {-moz-transform: scale(1);opacity: 0.9;}
+    50%  {-moz-transform: scale(1.75);opacity: 0;}
+    100% {-moz-transform: scale(0);opacity: 0;}  
+}
+
+@-moz-keyframes mymove1 /* Firefox */
+{
+ 0%   {-moz-transform: scale(0);opacity: 0;}
+    10%  {-moz-transform: scale(1);opacity: 0.9;}
+    50%  {-moz-transform: scale(1.75);opacity: 0;}
+    100% {-moz-transform: scale(0);opacity: 0;}  
+}
+
+@-webkit-keyframes mymove1 /* Safari and Chrome */
+{
+0%   {-moz-transform: scale(0);opacity: 0;}
+10%  {-moz-transform: scale(1);opacity: 0.9;}
+50%  {-moz-transform: scale(1.75);opacity: 0;}
+100% {-moz-transform: scale(0);opacity: 0;}  
+}
+
+
+a img {
+	border: none;
+	opacity: 0.8;
+	-webkit-transition: all 1s cubic-bezier(0,1,1,0);
+}
+
+a:hover img {
+	
+	-moz-transform: translate(3px,5px) scale(2.5) rotate(360deg);
+	-webkit-transform: translate(2px,5px) scale(2.5) rotate(360deg);
+}
+.menu
+{
+ -webkit-transition: background-color 2s linear;
+ -moz-transition: background-color 2s linear;
+ -o-transition: background-color 2s linear;
+ transition:width 2s, height 2s;
+  -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+ -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+}
+
+.menu:hover
+{
+-moz-transform: scale(1);
+-webkit-transform: scale(1);
+-o-transform:  scale(1);
+}
+/* 搜索 */
+.widget_search
+{
+background-color: #fff;
+border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+ -webkit-transition: background-color 2s linear;
+-moz-transition: background-color 2s linear;
+ -o-transition: background-color 2s linear;
+ transition:width 2s, height 2s;
+ -moz-transition:width 2s, height 2s, -moz-transform 2s; 
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; 
+ -o-transition:width 2s, height 2s, -o-transform 2s;
+}
+.widget_search:hover
+{
+text-align:center;opacity: 0.8;
+ background-color: #eee;
+ border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+-moz-transform: translate(-1px, -30px) scale(1.1);
+-webkit-transform: translate(-1px, -30px) scale(1.1);
+-o-transform: translate(-1px, -30px) scale(1.1);
+}
+
+/* 这功�?*/
+.widget_meta
+{
+ background-color: #fff;
+ border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+  -webkit-transition: background-color 2s linear ;
+ -moz-transition: background-color 2s linear ;
+ -o-transition: background-color 2s linear ;
+ transition:width 2s, height 2s;
+ -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+-moz-transform:  scale(0.8);
+-webkit-transform:  scale(0.8);
+-o-transform:  scale(0.8);
+}
+.widget_meta:hover
+{
+ text-align:center;opacity: 0.8;
+ background-color: #eee;
+ border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+-moz-transform: translate(-3px, -200px) scale(1.1);
+-webkit-transform: translate(-3px,-200px) scale(1.1);
+-o-transform: translate(-3px, -200px) scale(1.1);
+}
+/* 最近的文章 */
+.widget_recent_entries
+{
+  background-color: #fff;
+ -webkit-transition: background-color 2s linear;
+  -moz-transition: background-color 2s linear;
+  -o-transition: background-color 2s linear;
+  transition:width 2s, height 2s;
+  -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+ -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+
+}
+.widget_recent_entries:hover
+{
+ text-align:center;opacity: 0.8;
+ background-color: #eee;
+ border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+
+/* 这会将nav元素向左移动1800像素并向下移�?0像素 */
+-moz-transform: translate(-30px, 10px) scale(1.3);
+-webkit-transform: translate(-30px, 10px) scale(1.3);
+-o-transform: translate(-30px, 10px) scale(1.3);
+}
+
+/* RANDOM POSTS*/
+.widget_ara_randomposts
+{
+ background-color: #fff;
+ -webkit-transition: background-color 2s linear;
+ -moz-transition: background-color 2s linear;
+-o-transition: background-color 2s linear;
+ transition:width 2s, height 2s;
+ -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+ -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+
+}
+.widget_ara_randomposts:hover
+{
+text-align:center;opacity: 0.8;
+background-color: #eee;
+-moz-transform: translate(-30px, 10px) scale(1.3);
+-webkit-transform: translate(-30px,10px) scale(1.3);
+-o-transform: translate(-30px, 10px) scale(1.3);
+border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+
+}
+
+/* 这会标签 */
+.widget_tag_cloud
+{
+ background-color: #fff;
+ -webkit-transition: background-color 2s linear;
+ -moz-transition: background-color 2s linear;
+ -o-transition: background-color 2s linear;
+ transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+ -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */   
+}
+
+.widget_tag_cloud:hover
+{
+         text-align:center;opacity: 0.8;
+         background-color: #eee;
+	-moz-transform: translate(-30px, 10px) scale(1.3);
+	-webkit-transform: translate(-30px, 10px) scale(1.3);
+	-o-transform: translate(-30px, 10px) scale(1.3);
+border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+
+}
+
+/* 分类目录 */
+.widget_categories
+{
+              background-color: #fff;
+              -webkit-transition: background-color 2s linear;
+             -moz-transition: background-color 2s linear;
+             -o-transition: background-color 2s linear;
+            transition:width 2s, height 2s;
+            -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+           -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+           -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+}
+
+.widget_categories:hover
+{
+         text-align:center;opacity: 0.8;
+         background-color: #eee;
+	-moz-transform: translate(180px, -10px) scale(1.3);
+	-webkit-transform: translate(180px, -10px) scale(1.3);
+	-o-transform: translate(180px, -10px) scale(1.3);
+border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+}
+/*文章摘要 */
+.entry-title
+{
+-webkit-transition: background-color 2s linear;
+ -moz-transition: background-color 2s linear;
+ -o-transition: background-color 2s linear;
+ transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+ -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */  
+
+text-indent:10px;background:url(http://www.liuli.dotcloud.com/wp-content/uploads/2012/02/logo.gif);
+}
+.entry-title:hover
+{
+
+text-align:center;opacity: 0.8;
+ background-color: #eee;
+ border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+-moz-transform: translate(-1px, -30px) scale(1.1);
+-webkit-transform: translate(-1px, -30px) scale(1.1);
+-o-transform: translate(-1px, -30px) scale(1.1);
+}
+
+/*文章 */
+.post
+{
+ background-color: #fff;
+ -webkit-transition: background-color 2s linear;
+ -moz-transition: background-color 2s linear;
+ -o-transition: background-color 2s linear;
+ transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+ -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+
+}
+.post:hover
+{
+background-color: #eee;
+-moz-transform: translate(20px, 10px) scale(1);
+-webkit-transform: translate(20px, 10px) scale(1);
+-o-transform: translate(20px, 10px) scale(1);
+border-top-width:7px;
+border-right-width:7px;
+border-bottom-width:7px;
+border-left-width:7px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+}
+/*�?*/
+.nav-previous
+{
+width:230px;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+
+}
+.nav-next
+{
+width:230px;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+}
+.meta-nav
+{
+background-color:Cyan;
+ -webkit-transition: background-color 2s linear;
+ -moz-transition: background-color 2s linear;
+ -o-transition: background-color 2s linear;
+ transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s; 
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; 
+ -o-transition:width 2s, height 2s, -o-transform 2s; 
+}
+.meta-nav:hover
+{
+-moz-transform: translate(5px, 5px) scale(2);
+-webkit-transform: translate(5px, 5px) scale(2);
+-o-transform: translate(5px, 5px) scale(2);
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+}
+
+#top
+{
+position:fixed; 
+bottom:0;
+right:0;height:34px;width:34px;
+}
+#top a
+{
+display:block;
+height:35px;width:35px;
+text-indent:-9999px;background:url(http://www.liuli.dotcloud.com/wp-content/uploads/2012/01/symbols.png) no-repeat 0 -600px;
+}
+#top a:hover
+{
+border:none;
+background:url(http://www.liuli.dotcloud.com/wp-content/uploads/2012/01/symbols.png) no-repeat 0 -635px;
+}
+#top a:focus
+{
+-moz-outline-style:none;
+}
+
+/* 文章日期 */
+.entry-meta
+{
+
+  background-color: #fff;
+border-top-width:2px;
+border-right-width:2px;
+border-bottom-width:2px;
+border-left-width:2px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+
+ -webkit-transition: background-color 2s linear;
+  -moz-transition: background-color 2s linear;
+  -o-transition: background-color 2s linear;
+  transition:width 2s, height 2s;
+  -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+ -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+ -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+-moz-transform:  scale(0.5);
+-webkit-transform:  scale(0.5);
+-o-transform:  scale(0.5);
+}
+.entry-meta:hover
+{
+ text-align:center;opacity: 0.8;
+ background-color: #fff;
+ border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:outset;
+border-right-style:outset;
+border-bottom-style:outset;
+border-left-style:outset;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+
+-moz-transform: translate(-1px, 1px) scale(1);
+-webkit-transform: translate(-1px, 1px) scale(1);
+-o-transform: translate(-1px, 1px) scale(1);
+/* 这会将nav元素向左移动1800像素并向下移�?0像素 */
+} 
+
+.entry-date
+{
+font-style:italic;
+line-height:0px;
+-webkit-text-stroke-color:rgb(45, 25, 94);
+border-top-style:double;
+border-right-style:double;
+border-bottom-style:double;
+border-left-style:double;
+border-top-width:8px;
+border-right-width:8px;
+border-bottom-width:8px;
+border-left-width:8px;
+-webkit-text-stroke-width:4px;
+font-weight:bold;
+font-size:20px;
+padding:0px;
+margin:31px;
+-webkit-border-radius:99px;
+-moz-border-radius:99px;
+border-radius:99px;
+} 
+/* 这sm rq */
+/*ui �?ui */
+ul#progress {
+    list-style:none;
+    width:185px;
+    margin:0 auto;
+    padding-top:50px;
+    padding-bottom:50px;
+  
+ }
+ul#progress li { 
+    float:left;
+    position:relative;
+    width:25px;
+    height:15px;
+    border:1px solid #fff;
+    border-radius:50px;
+    margin-left:10px;
+    border-left:1px solid #111; border-top:1px solid #111; border-right:1px solid #333; border-bottom:1px solid #333; 
+    background:#000;
+}
+ 
+ul#progress li:first-child { margin-left:0; } 
+ 
+.ball { 
+    background-color:#2187e7; 
+    background-image: -moz-linear-gradient(90deg, #2187e7 25%, #a0eaff); 
+    background-image: -webkit-linear-gradient(90deg, #2187e7 25%, #a0eaff); 
+ 
+    width:25px;
+    height:15px;
+    border-radius:50px;
+    -moz-transform:scale(0);
+    -webkit-transform:scale(0);
+     
+    -moz-animation:loading 1s linear forwards infinite;
+    -webkit-animation:loading 1s linear forwards infinite;
+}
+ 
+.pulse { 
+    width:35px;
+    height:35px;
+    border-radius:20px;
+    border: 2px solid #00c6ff;
+    box-shadow: 0 0 5px #00c6ff;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+    -moz-transform:scale(0);
+    -webkit-transform:scale(0);
+     
+    -webkit-animation:pulse 1s ease-out infinite;
+    -moz-animation:pulse 1s ease-out infinite;
+}
+
+/* Control Layers */
+#layer1 { -moz-animation-delay:0.5s; -webkit-animation-delay:0.5s; }
+#layer2 { -moz-animation-delay:1s; -webkit-animation-delay:1s; }
+#layer3 { -moz-animation-delay:1.5s; -webkit-animation-delay:1.5s; }
+#layer4 { -moz-animation-delay:2s; -webkit-animation-delay:2s; }
+#layer5 { -moz-animation-delay:2.5s; -webkit-animation-delay:2.5s; }
+ 
+#layer7 { -moz-animation-delay:1.5s; -webkit-animation-delay:1.5s; }
+#layer8 { -moz-animation-delay:2s; -webkit-animation-delay:2s; }
+#layer9 { -moz-animation-delay:2.5s; -webkit-animation-delay:2.5s; }
+#layer10 { -moz-animation-delay:3s; -webkit-animation-delay:3s; }
+#layer11 { -moz-animation-delay:3.5s; -webkit-animation-delay:3.5s; }
+ 
+@-moz-keyframes loading {
+    0%{-moz-transform:scale(0,0);}
+    100%{-moz-transform:scale(1,1);}    
+}
+ 
+@-webkit-keyframes loading {
+    0%{-webkit-transform:scale(0,0);}
+    100%{-webkit-transform:scale(1,1);} 
+}
+ 
+@-moz-keyframes pulse {
+    0%   {-moz-transform: scale(0);opacity: 0;}
+    10%  {-moz-transform: scale(1);opacity: 0.5;}
+    50%  {-moz-transform: scale(1.75);opacity: 0;}
+    100% {-moz-transform: scale(0);opacity: 0;}  
+}
+ 
+@-webkit-keyframes pulse {
+    0%   {-webkit-transform: scale(0);opacity: 0;}
+    10%  {-webkit-transform: scale(1);opacity: 0.5;}
+    50%  {-webkit-transform: scale(1.75);opacity: 0;}
+    100% {-webkit-transform: scale(0);opacity: 0;}    
+}�?	</style>
+		<link rel="alternate" type="application/rss+xml" title="liuli &raquo; Feed" href="http://www.liuli.dotcloud.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="liuli &raquo; 评论 Feed" href="http://www.liuli.dotcloud.com/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="liuli &raquo; 文章列表 评论 Feed" href="http://www.liuli.dotcloud.com/?feed=rss2&#038;page_id=184363" />
+<link rel='stylesheet' id='visual-form-builder-css-css'  href='http://www.liuli.dotcloud.com/wp-content/plugins/visual-form-builder/css/visual-form-builder.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='vfb-date-picker-css-css'  href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/base/jquery-ui.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.liuli.dotcloud.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.liuli.dotcloud.com/wp-content/themes/brunelleschi/js/modernizr-2.5.2.min.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://www.liuli.dotcloud.com/wp-content/themes/brunelleschi/js/respond.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://www.liuli.dotcloud.com/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<script type='text/javascript' src='http://www.liuli.dotcloud.com/wp-content/themes/brunelleschi/js/brunelleschi-scripts.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://www.liuli.dotcloud.com/wp-includes/js/comment-reply.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://www.liuli.dotcloud.com/wp-content/plugins/visual-form-builder/js/js_quicktags.js?ver=3.4.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.liuli.dotcloud.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.liuli.dotcloud.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='自我介绍' href='http://wjfliuli.sourceforge.net/flshll/liuli.html' />
+<link rel='next' title='报表' href='http://www.liuli.dotcloud.com/?page_id=184399' />
+<meta name="generator" content="WordPress 3.4.2" />
+
+<!-- All in One SEO Pack 1.6.15 by Michael Torbert of Semper Fi Web Design[662,695] -->
+<link rel="canonical" href="http://www.liuli.dotcloud.com/?page_id=184363" />
+<!-- /all in one seo pack -->
+	<link href="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Styles/SyntaxHighlighter.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://www.liuli.dotcloud.com/wp-content/plugins/wp-content-index/style.css" type="text/css" media="all" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #fff; }
+</style>
+<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.3" />
+	</head>
+	<body class="page page-id-184363 page-template page-template-liuli-php custom-background">
+	<div id="wrapper" class="hfeed container">
+		<header id="header" class="row clearfix">
+							<div id="branding" class="twelvecol last">
+										<div id="site-title" >
+						<a href="http://www.liuli.dotcloud.com/" title="liuli" rel="home">liuli</a>
+					</div>
+					<div id="site-description" >没得卵事瞎搞</div>
+				</div><!-- #branding -->
+										<div id="access" role="navigation" class="twelvecol last clearfix">
+					<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+					<div class="menu"><ul><li ><a href="http://www.liuli.dotcloud.com/" title="首页">首页</a></li><li class="page_item page-item-66001"><a href="http://liuli.sf.net" target="_blank">liuli.sf.net</a><ul class='children'><li class="page_item page-item-184004"><a href="http://liuliwed.appspot.com/" target="_blank">appspot</a><ul class='children'><li class="page_item page-item-10001"><a href="http://liuli.org.ru/g" target="_blank">appspot 备份空间</a></li></ul></li><li class="page_item page-item-42001"><a href="http://liuli.org.ru/phpbb308/index.php" target="_blank">phpbb论坛</a><ul class='children'><li class="page_item page-item-184040"><a href="https://sandbox.google.com/storage/?project=963006753556&#038;pli=1" target="_blank">网络硬盘</a><ul class='children'><li class="page_item page-item-96001"><a href="https://www.dropbox.com/login?cont=https%3A//www.dropbox.com/0/oauth/authorize%3Foauth_token%3Dvm4svammuhzns1y%26oauth_callback%3Dhttp%3A//drag2up.appspot.com/static/tpilb.html">dropbox</a></li><li class="page_item page-item-38001"><a href="http://login.live.com/login.srf?wa=wsignin1.0&#038;rpsnv=11&#038;ct=1282325198&#038;rver=5.5.4177.0&#038;wp=MBI&#038;wlcxt=title&#038;wreply=http:%2F%2Fcid-c4b7a79cd8089214.skydrive.live.com%2Fhome.aspx%3Flc%3D2052&#038;lc=2052&#038;id=250206&#038;mkt=zh-CN" target="_blank">live</a></li></ul></li></ul></li><li class="page_item page-item-9001"><a href="http://liuli.sourceforge.net/">sf站点</a></li><li class="page_item page-item-36001"><a href="https://www.google.com/a/liuli.org.ru/ServiceLogin?service=CPanel&#038;passive=1209600&#038;continue=https://www.google.com/a/cpanel/liuli.org.ru/Dashboard&#038;followup=https://www.google.com/a/cpanel/liuli.org.ru/Dashboard" target="_blank">谷歌企业应用套件</a></li></ul></li><li class="page_item page-item-184151"><a href="http://www.liuli.dotcloud.com/?page_id=184151">下载</a></li><li class="page_item page-item-184167"><a href="http://www.liuli.dotcloud.com/?page_id=184167">图片</a></li><li class="page_item page-item-184399"><a href="http://www.liuli.dotcloud.com/?page_id=184399">报表</a></li><li class="page_item page-item-184155"><a href="http://www.liuli.dotcloud.com/?page_id=184155">视频</a></li><li class="page_item page-item-184363 current_page_item"><a href="http://www.liuli.dotcloud.com/?page_id=184363">文章列表</a></li><li class="page_item page-item-184350"><a href="http://wjfliuli.sourceforge.net/flshll/liuli.html" target="_blank">自我介绍</a></li></ul></div>
+				</div><!-- #access -->
+																	</header><!-- #header -->
+		<div id="container" class="row clearfix">
+<div class='wp-pagenavi'>
+<span class='pages'>�?Page 1 of 1 �?/span><span class='current'>1</span>
+</div>
+
+
+
+		<div id="main" class="one-column twelvecol last" role="main">
+
+
+				<article id="post-184363" class="post-184363 page type-page status-publish hentry">
+					<header>
+											<h1 class="entry-title">文章列表</h1>
+										</header>
+
+					<div class="entry-content">
+						<div class="”entry�?></div>
+																	</div><!-- .entry-content -->
+				</article><!-- #post-## -->
+
+							<div id="comments">
+
+	<p class="nocomments">Comments are closed.</p>
+	
+
+
+								
+</div><!-- #comments -->
+
+<div  id= id="lp" class='liulil'>
+	<li><a href='http://www.liuli.dotcloud.com/?p=181005' title='一些当前和即将开放的云平�?>一些当前和即将开放的云平�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184418' title='10分钟学会Google Map API'>10分钟学会Google Map API</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=124001' title='16个简单实用的.htaccess技�?>16个简单实用的.htaccess技�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184278' title='CSS 性能调优 �?&#8211; Quanta 技术博�?>CSS 性能调优 �?&#8211; Quanta 技术博�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184300' title='CSS3中Transitions属性的使用方法 �?w3cmm教程'>CSS3中Transitions属性的使用方法 �?w3cmm教程</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184294' title='CSS3中的变形处理(transform)属�?�?w3cmm教程'>CSS3中的变形处理(transform)属�?�?w3cmm教程</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184310' title='CSS3动画之二：Animations功能'>CSS3动画之二：Animations功能</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184297' title='CSS实现相对浏览器窗口定位彻底研�?�?w3cmm教程'>CSS实现相对浏览器窗口定位彻底研�?�?w3cmm教程</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184009' title='DotCloud的搭建过�?>DotCloud的搭建过�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184015' title='dotcloud部署flask应用步骤'>dotcloud部署flask应用步骤</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=21001' title='Firefox内存优化的方�?>Firefox内存优化的方�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=176003' title='FLASH中场景切换的几个方法详解'>FLASH中场景切换的几个方法详解</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=177001' title='FLASH常用AS代码大全'>FLASH常用AS代码大全</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=177002' title='FLASH调用外部SWF、音乐、视频、TXT，HTML方法详解'>FLASH调用外部SWF、音乐、视频、TXT，HTML方法详解</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=175001' title='FLASH调用外部文件详解'>FLASH调用外部文件详解</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=178001' title='flash调用多个SWF文件代码'>flash调用多个SWF文件代码</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184427' title='github 使用入门'>github 使用入门</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184232' title='Google &#8211; Bookmarks'>Google &#8211; Bookmarks</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=6002' title='Google Analytics使用指南(攻略)'>Google Analytics使用指南(攻略)</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=123001' title='Google App Engine（GAE）绑定自己的域名'>Google App Engine（GAE）绑定自己的域名</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184420' title='Google Map API 应用实例说明'>Google Map API 应用实例说明</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=105001' title='Google Storage for Developers'>Google Storage for Developers</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=104001' title='Google Storage for Developers Preview'>Google Storage for Developers Preview</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=140001' title='Google Storage 的GSUtil'>Google Storage 的GSUtil</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=92001' title='he.net的免费ipv6教程'>he.net的免费ipv6教程</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=127001' title='he.net：免费DNS以及ipv6 IP地址和隧道服�?>he.net：免费DNS以及ipv6 IP地址和隧道服�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=125001' title='htaccess 文件详解'>htaccess 文件详解</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184111' title='http://www.liuli.dotcloud.com/wp-content/uploads/2012/01/Swiffy-output.htm'>http://www.liuli.dotcloud.com/wp-content/uploads/2012/01/Swiffy-output.htm</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=114001' title='IPv6 协议栈的安装�?IPv6 地址设置指南'>IPv6 协议栈的安装�?IPv6 地址设置指南</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=111001' title='IPv6安装与配�?>IPv6安装与配�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=129001' title='IPv6访问Google等被墙的网站'>IPv6访问Google等被墙的网站</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184223' title='Javascript学吧&#8211;js 四个页面转向代码'>Javascript学吧&#8211;js 四个页面转向代码</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184259' title='JavaScript统计用户在线停留时间 &#8211; JAVASCRIPT教程 &#8211; 站长中国'>JavaScript统计用户在线停留时间 &#8211; JAVASCRIPT教程 &#8211; 站长中国</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184254' title='js判断网页对象是否存在'>js判断网页对象是否存在</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184128' title='linux下ssh使用详解 ssh scp的简介及作用'>linux下ssh使用详解 ssh scp的简介及作用</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=55001' title='Linux下使用SSH+FireFox翻墙'>Linux下使用SSH+FireFox翻墙</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184070' title='liuli | 没得卵事瞎搞Ubuntu开启IPV6，解决google服务问题'>liuli | 没得卵事瞎搞Ubuntu开启IPV6，解决google服务问题</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=108001' title='MySQL 数据库同�?>MySQL 数据库同�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=47001' title='nslookup最简单的用法'>nslookup最简单的用法</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184227' title='PHP 定时执行任务 �?Enjoy Diy'>PHP 定时执行任务 �?Enjoy Diy</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=43001' title='PHPBB的插件安�?>PHPBB的插件安�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=173001' title='phpBB直升级到�?.08'>phpBB直升级到�?.08</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184229' title='PHP定时执行程序代码'>PHP定时执行程序代码</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184413' title='PHP连接各种数据库代�?>PHP连接各种数据库代�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=19001' title='PyQt4 编程简�?>PyQt4 编程简�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=20001' title='Python 常用模块'>Python 常用模块</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=18001' title='python文件操作'>python文件操作</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=23001' title='RIPN域名写信修改ns记录的方�?>RIPN域名写信修改ns记录的方�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=57001' title='shellmix �?提供免费的SSH服务以及免费网站空间'>shellmix �?提供免费的SSH服务以及免费网站空间</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184430' title='sourceforge&#8212;-svn的建�?>sourceforge&#8212;-svn的建�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=181004' title='Sourceforge.net：无限容量免费PHP空间开通及使用图文教程'>Sourceforge.net：无限容量免费PHP空间开通及使用图文教程</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=45001' title='systeminplace.net-国外支持ru域名的免费DNS解析服务�?>systeminplace.net-国外支持ru域名的免费DNS解析服务�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=118001' title='Teredo穿路由器登陆IPV6'>Teredo穿路由器登陆IPV6</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=183001' title='TortoiseGit使用入门'>TortoiseGit使用入门</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=180004' title='TortoiseGit密钥的配�?>TortoiseGit密钥的配�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=17001' title='Ubuntu 3D桌面特效的详细设�?>Ubuntu 3D桌面特效的详细设�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=183002' title='Ubuntu Ipv6穿墙'>Ubuntu Ipv6穿墙</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184132' title='ubuntu SSH 连接、远程上传下载文�?>ubuntu SSH 连接、远程上传下载文�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=113001' title='ubuntu 安装ipv6'>ubuntu 安装ipv6</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184086' title='ubuntu11.04安装Macbuntu'>ubuntu11.04安装Macbuntu</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184058' title='Ubuntu中文论坛 �?查看主题 &#8211; �?ubuntu �?使用 虚拟光驱'>Ubuntu中文论坛 �?查看主题 &#8211; �?ubuntu �?使用 虚拟光驱</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184061' title='Ubuntu开启IPv6，享受稳定的Google服务'>Ubuntu开启IPv6，享受稳定的Google服务</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=141001' title='UN NX6.0 7.5安装'>UN NX6.0 7.5安装</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=121001' title='VPS的IPv6 Ready'>VPS的IPv6 Ready</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=63001' title='WallProxy概述'>WallProxy概述</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=116001' title='Win7使用teredo连接IPv6的方�?>Win7使用teredo连接IPv6的方�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=102001' title='Windows XP实现自动登陆quot;rundll32 netplwiz.dll,UsersRunDll&quot;'>Windows XP实现自动登陆quot;rundll32 netplwiz.dll,UsersRunDll&quot;</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=107001' title='Windows XP的关�?>Windows XP的关�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184313' title='WordPress一个主题多个样式表'>WordPress一个主题多个样式表</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184046' title='WordPress主题结构'>WordPress主题结构</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184365' title='wordpress所有文章列表页�?模板archives.php'>wordpress所有文章列表页�?模板archives.php</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=166001' title='Wsyscheck是一款手动清理病毒木马的工具'>Wsyscheck是一款手动清理病毒木马的工具</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=165001' title='Wsyscheck是一款手动清理病毒木马的工具'>Wsyscheck是一款手动清理病毒木马的工具</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=117001' title='XP 利用teredo上IPV6�?>XP 利用teredo上IPV6�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=119001' title='XP下安装IPv6'>XP下安装IPv6</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=122001' title='zoneedit.com域名解析DNS注册与管理图文教�?>zoneedit.com域名解析DNS注册与管理图文教�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=12001' title='[WordPress]已解決error establishing a database connection'>[WordPress]已解決error establishing a database connection</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184276' title='【转】CSS 文字阴影在网页设计中的应�?&#8211; Quanta 技术博�?>【转】CSS 文字阴影在网页设计中的应�?&#8211; Quanta 技术博�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=168001' title='一台电脑变多台'>一台电脑变多台</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=5001' title='一批免费VPN账号'>一批免费VPN账号</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184368' title='中华人民共和国刑事诉讼法（修正）'>中华人民共和国刑事诉讼法（修正）</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=26002' title='什么是域名的A纪录,MX纪录，CNAME纪录，URL转发'>什么是域名的A纪录,MX纪录，CNAME纪录，URL转发</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184439' title='仿Google输入框——快速查找列表框中的项目'>仿Google输入框——快速查找列表框中的项目</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=56001' title='优化电脑'>优化电脑</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184285' title='你需要知道的CSS3 动画技�?>你需要知道的CSS3 动画技�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184121' title='使用dotcloud免费ssh'>使用dotcloud免费ssh</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=103001' title='使用Google Storage的gsutil tool进行文件的上传和下载'>使用Google Storage的gsutil tool进行文件的上传和下载</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=160001' title='使用Python访问Google Storage'>使用Python访问Google Storage</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=1002' title='修改micolog的主题安�?>修改micolog的主题安�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=126001' title='免费SSH帐号获取及SSH+Firefox翻墙使用攻略'>免费SSH帐号获取及SSH+Firefox翻墙使用攻略</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=53001' title='免费SSH账号申请'>免费SSH账号申请</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=49001' title='免费的SSH帐号'>免费的SSH帐号</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=67001' title='再次搞定Skydrive外链'>再次搞定Skydrive外链</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=136001' title='写批处理'>写批处理</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=120001' title='利用IPv6技术实现代理上�?>利用IPv6技术实现代理上�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=7001' title='利用Windows Live Writer发表文章'>利用Windows Live Writer发表文章</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184098' title='利用屏幕保护实现自动关机'>利用屏幕保护实现自动关机</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=91001' title='去掉PHPBB底部的版权信息的链接'>去掉PHPBB底部的版权信息的链接</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=131001' title='命令'>命令</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=163001' title='命令行手工备份Ubuntu系统的方�?还原Ubuntu系统备份的方�?>命令行手工备份Ubuntu系统的方�?还原Ubuntu系统备份的方�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=182001' title='图解Windows上的Git指南'>图解Windows上的Git指南</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=128001' title='在CentOS下安装PPTP的VPN'>在CentOS下安装PPTP的VPN</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184013' title='在Dotcloud上架设Django网站'>在Dotcloud上架设Django网站</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=31001' title='在Google app engine上个人搭建的反向代理 可以分为两种'>在Google app engine上个人搭建的反向代理 可以分为两种</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=41001' title='在Google App Engine上运行PHP'>在Google App Engine上运行PHP</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=98001' title='在Google App Engine（gae）或appspot绑定自己的域�?>在Google App Engine（gae）或appspot绑定自己的域�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=139001' title='基于Chrome的扩展开�?>基于Chrome的扩展开�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=143001' title='基于IPv6的远程控�?>基于IPv6的远程控�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=13001' title='增加公告栏的方法'>增加公告栏的方法</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=11001' title='备份Google App Engine服务器代�?>备份Google App Engine服务器代�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=68001' title='如何使用Windows Live Writer发布Micolog博客'>如何使用Windows Live Writer发布Micolog博客</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=162001' title='如何在Ubuntu中安装和使用KVPNC'>如何在Ubuntu中安装和使用KVPNC</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184282' title='学习笔记: CSS3 鼠标悬停动画'>学习笔记: CSS3 鼠标悬停动画</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=164001' title='将现有Ubuntu系统做成LiveCD'>将现有Ubuntu系统做成LiveCD</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=50001' title='建议用Tunnelier代替MyEnTunnel翻墙'>建议用Tunnelier代替MyEnTunnel翻墙</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184090' title='强制Chrome浏览器Https加密访问网站'>强制Chrome浏览器Https加密访问网站</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184291' title='怎样在wordpress文章内容页加入adsense广告代码_百度经验'>怎样在wordpress文章内容页加入adsense广告代码_百度经验</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=168002' title='成大事必�?>成大事必�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184103' title='手把手教开发chrome扩展'>手把手教开发chrome扩展</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=14001' title='手部反射区按摩保健操'>手部反射区按摩保健操</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=135001' title='批处理命令详�?>批处理命令详�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=16001' title='找出最快的VPN'>找出最快的VPN</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=100001' title='提供免费SSH帐号服务的网�?>提供免费SSH帐号服务的网�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=51001' title='提升SSH翻墙下载速度'>提升SSH翻墙下载速度</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=52001' title='提高你的ssh翻墙速度之MyEnTunnel/PuTTY/Plink速度之谜'>提高你的ssh翻墙速度之MyEnTunnel/PuTTY/Plink速度之谜</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=83001' title='搭建远距离Wifi无线链路（一�?>搭建远距离Wifi无线链路（一�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=170001' title='是谁把人生说的如此透彻'>是谁把人生说的如此透彻</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=147001' title='曲流'>曲流</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=172001' title='清理磁盘方法'>清理磁盘方法</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=35001' title='熟豆�?酱油是怎样制作'>熟豆�?酱油是怎样制作</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=61001' title='爬墙姿势'>爬墙姿势</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=93001' title='用Google IPv6 代理'>用Google IPv6 代理</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=60002' title='用Google的服务器来存放静态文�?>用Google的服务器来存放静态文�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=54001' title='用免费空�?cpanel空间)寻找免费SSH帐号,SSH代理'>用免费空�?cpanel空间)寻找免费SSH帐号,SSH代理</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=147002' title='用命令行轻松实现宽带路由器配置自动化'>用命令行轻松实现宽带路由器配置自动化</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=60001' title='申请并激活PAYPAL全新攻略详解'>申请并激活PAYPAL全新攻略详解</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=171003' title='电脑就可以利用手机上�?一招就让电脑永无病�?>电脑就可以利用手机上�?一招就让电脑永无病�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=44001' title='简明Joomla安装步骤'>简明Joomla安装步骤</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=137001' title='简明批处理'>简明批处理</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=8001' title='给Micolog导航栏增加外链功�?>给Micolog导航栏增加外链功�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=90001' title='给phpBB创建模板'>给phpBB创建模板</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=37001' title='缩短与goo.gl网址，新的谷歌网址shortener'>缩短与goo.gl网址，新的谷歌网址shortener</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184116' title='网站如何增加“返回顶部、返回评论、返回底部”按�?>网站如何增加“返回顶部、返回评论、返回底部”按�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=132001' title='自从用了CJB.NET的免费shell账户搭建SSH服务�?>自从用了CJB.NET的免费shell账户搭建SSH服务�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184396' title='菜根�?全文附译�?'>菜根�?全文附译�?</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=171002' title='补肾助“性”两大要�?>补肾助“性”两大要�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=32002' title='让Gae应用HTTPS协议'>让Gae应用HTTPS协议</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184324' title='让wordpress博客首页分类页显示文章标题列表或摘要'>让wordpress博客首页分类页显示文章标题列表或摘要</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184264' title='让wordpress博客首页分类页显示文章标题列表或摘要 = 飞龙博客 飞龙在天'>让wordpress博客首页分类页显示文章标题列表或摘要 = 飞龙博客 飞龙在天</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184067' title='让wordpress在DotCloud上运�?>让wordpress在DotCloud上运�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=184001' title='让wordpress首页显示特殊页面（flash首页等）'>让wordpress首页显示特殊页面（flash首页等）</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=138001' title='让迅雷下载速度翻十�?>让迅雷下载速度翻十�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=39001' title='译】Chrome扩展程序开发之HelloWorld'>译】Chrome扩展程序开发之HelloWorld</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=171001' title='身体各部位最佳扫毒方�?>身体各部位最佳扫毒方�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=99002' title='软件自动安装之――――自动安装脚本篇'>软件自动安装之――――自动安装脚本篇</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=115001' title='隧道策略'>隧道策略</a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=109001' title='领导的逻辑12种新大傻：同与不�?>领导的逻辑12种新大傻：同与不�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=28002' title='鳄梨酱是HTML5�?的JavaScript（AJAX）来VNC�?>鳄梨酱是HTML5�?的JavaScript（AJAX）来VNC�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=167001' title='黄金分割的应�?>黄金分割的应�?/a></li>
+	<li><a href='http://www.liuli.dotcloud.com/?p=134001' title='ＸＰ中的一个远程关机命�?,局域网关机命令�?>ＸＰ中的一个远程关机命�?,局域网关机命令�?/a></li>
+</div>
+		</div><!-- #main -->
+
+			</div><!-- #container -->
+			<footer id="footer" role="contentinfo" class="row">
+				<div id="footerbar" class="twelvecol last">
+					
+			<div id="footer-widget-area" role="complementary">
+
+
+
+				<div id="third" class="widget-area">
+					<ul class="xoxo">
+						<li id="archives-2" class="widget-container threecol widget_archive"><h3 class="widget-title">文章归档</h3>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">选择月份</option> 	<option value='http://www.liuli.dotcloud.com/?m=201209'> 2012 年九�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201208'> 2012 年八�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201205'> 2012 年五�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201203'> 2012 年三�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201202'> 2012 年二�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201201'> 2012 年一�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201112'> 2011 年十二月 </option>
+	<option value='http://www.liuli.dotcloud.com/?m=201111'> 2011 年十一�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201110'> 2011 年十�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201109'> 2011 年九�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201105'> 2011 年五�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201104'> 2011 年四�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201103'> 2011 年三�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201102'> 2011 年二�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201101'> 2011 年一�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201012'> 2010 年十二月 </option>
+	<option value='http://www.liuli.dotcloud.com/?m=201011'> 2010 年十一�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201010'> 2010 年十�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201009'> 2010 年九�?</option>
+	<option value='http://www.liuli.dotcloud.com/?m=201008'> 2010 年八�?</option>
+ </select>
+</li>					</ul>
+				</div><!-- #third .widget-area -->
+
+				<div id="fourth" class="widget-area">
+					<ul class="xoxo">
+						<li id="categories-2" class="widget-container threecol last widget_categories"><h3 class="widget-title">分类目录</h3><select name='cat' id='cat' class='postform' >
+	<option value='-1'>选择分类目录</option>
+	<option class="level-0" value="57">CSS</option>
+	<option class="level-0" value="51">Dotcloud</option>
+	<option class="level-0" value="9">Google</option>
+	<option class="level-0" value="11">ipv6</option>
+	<option class="level-0" value="56">JavaScript</option>
+	<option class="level-0" value="7">Python</option>
+	<option class="level-0" value="10">Ubuntu</option>
+	<option class="level-0" value="4">WordPress</option>
+	<option class="level-0" value="6">免费资源</option>
+	<option class="level-0" value="12">命令</option>
+	<option class="level-0" value="5">学习资料</option>
+	<option class="level-0" value="54">密码保护文章</option>
+	<option class="level-0" value="1">未分�?/option>
+	<option class="level-0" value="8">随意网摘</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+	var dropdown = document.getElementById("cat");
+	function onCatChange() {
+		if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+			location.href = "http://www.liuli.dotcloud.com/?cat="+dropdown.options[dropdown.selectedIndex].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+/* ]]> */
+</script>
+
+</li><li id="text-15" class="widget-container threecol last widget_text">			<div class="textwidget"><audio controls="controls"autoplay="autoplay">
+  <source src="http://v2.cache5.c.bigcache.googleapis.com/liuli/%E7%94%B5%E5%BD%B1/01%20%E4%BC%A4%E4%B8%8D%E8%B5%B7.ogg" type="audio/ogg"> 
+  
+</audio></div>
+		</li>					</ul>
+				</div><!-- #fourth .widget-area -->
+
+			</div><!-- #footer-widget-area -->
+				</div><!-- #footerbar -->
+				<div id="colophon" class="twelvecol last">
+					<div id="site-info" class="sixcol">
+						<a href="http://www.liuli.dotcloud.com/" title="liuli" rel="home">
+							liuli						</a>
+					</div><!-- #site-info -->
+					<div id="site-generator" class="sixcol last">
+												<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress.</a>
+					</div><!-- #site-generator -->
+				</div><!-- #colophon -->
+			</footer><!-- #footer -->
+		</div><!-- #wrapper -->
+		<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shCore.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushCSharp.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushPhp.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushJScript.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushJava.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushVb.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushSql.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushXml.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushDelphi.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushPython.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushRuby.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushCss.js"></script>
+<script class="javascript" src="http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushCpp.js"></script>
+<script class="javascript">
+dp.SyntaxHighlighter.ClipboardSwf = 'http://www.liuli.dotcloud.com/wp-content/plugins/google-syntax-highlighter/Scripts/clipboard.swf';
+dp.SyntaxHighlighter.HighlightAll('code');
+</script>
+	</body>
+</html>
+
